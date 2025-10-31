@@ -1,0 +1,5 @@
+services:
+  app:
+    image: ubuntu
+    container_name: app
+    tty: true
