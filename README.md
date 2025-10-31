@@ -1,6 +1,6 @@
 - markdown
     - parse
-        - ```glow {file_name}```
+        - ```mdcat {file_name}```
 
 - sql
 
