@@ -1,3 +1,10 @@
+- vim
+    - blank buffer
+        - ```:enew```
+    - save as
+        - ```:w {file_name}```
+    - reload current buffer(force)
+        - ```:e(!)```
 - markdown
     - parse
         - ```mdcat {file_name}```
