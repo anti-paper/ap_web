@@ -1,0 +1,13 @@
+javascript:(
+    function () {
+        const from = document.querySelector('#head-ref-selector .css-truncate-target').textContent;
+        const to = document.querySelector('#base-ref-selector .css-truncate-target').textContent;
+        const msg=`${from} > ${to}`;
+        document.getElementById('pull_request_title').value = msg;
+
+        const commitMessages = Array.from(document.querySelectorAll('.mb-1')).map(elm => {
+            return '- ' + elm.textContent.replace(/\n(\s)*/g, '');
+        });
+        document.getElementById('pull_request_body').value = '### 概要\n\n' + commitMessages.join('\n');
+    }
+)();
