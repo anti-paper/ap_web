@@ -36,6 +36,7 @@
 |database list|show databases;|a|
 
 ↓あとで清書
+
 mysql
 pager on
 \P -SF
